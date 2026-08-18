@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Login",
+        "description": "Enter your Lavazza account credentials.",
+        "data": {
+          "country": "Country",
+          "email": "Email",
+          "password": "Password"
+        },
+        "data_description": {
+          "country": "Select your country"
+        }
+      },
+      "reauth": {
+        "title": "Reauthenticate",
+        "description": "Your Lavazza session has expired. Please re-enter your password for {username}.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Authentication failed. Please check your credentials."
+    },
+    "abort": {
+      "reauth_failed": "Reauthentication failed. Please try again.",
+      "reauth_successful": "Reauthentication successful."
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "IT": "Italy",
+        "AU": "Australia",
+        "UK": "United Kingdom",
+        "GB": "Great Britain",
+        "DK": "Denmark",
+        "DE": "Germany",
+        "FR": "France",
+        "US": "United States"
+      }
+    }
+  }
+}

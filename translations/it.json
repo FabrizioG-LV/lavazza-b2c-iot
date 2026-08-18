@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Accedi",
+        "description": "Inserisci le tue credenziali dell'account Lavazza.",
+        "data": {
+          "country": "Paese",
+          "email": "Email",
+          "password": "Password"
+        },
+        "data_description": {
+          "country": "Seleziona il tuo paese"
+        }
+      },
+      "reauth": {
+        "title": "Riautentica",
+        "description": "La tua sessione Lavazza è scaduta. Reinserisci la password per {username}.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Autenticazione fallita. Controlla le tue credenziali."
+    },
+    "abort": {
+      "reauth_failed": "Riautenticazione fallita. Prova di nuovo.",
+      "reauth_successful": "Riautenticazione riuscita."
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "IT": "Italia",
+        "AU": "Australia",
+        "UK": "Regno Unito",
+        "GB": "Gran Bretagna",
+        "DK": "Danimarca",
+        "DE": "Germania",
+        "FR": "Francia",
+        "US": "Stati Uniti"
+      }
+    }
+  }
+}
