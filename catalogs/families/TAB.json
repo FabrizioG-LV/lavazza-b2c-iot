@@ -1,0 +1,174 @@
+{
+  "states": {
+    "0": {
+      "key": "brewing",
+      "display_name": "Brewing"
+    },
+    "1": {
+      "key": "descaling_pause",
+      "display_name": "Descaling in pause"
+    },
+    "2": {
+      "key": "descaling_run",
+      "display_name": "Descaling in progress"
+    },
+    "3": {
+      "key": "descaling_wait",
+      "display_name": "Waiting descale start"
+    },
+    "4": {
+      "key": "descaling_heating",
+      "display_name": "Heating before descaling"
+    },
+    "5": {
+      "key": "doses_programming",
+      "display_name": "Dose programming"
+    },
+    "6": {
+      "key": "doses_reset",
+      "display_name": "Reset programmed doses"
+    },
+    "7": {
+      "key": "factory_reset",
+      "display_name": "Reset all parameters and statistics"
+    },
+    "8": {
+      "key": "fault",
+      "display_name": "Fault state"
+    },
+    "9": {
+      "key": "first_heating",
+      "display_name": "First heating of a cold machine"
+    },
+    "10": {
+      "key": "heating",
+      "display_name": "Heating phase"
+    },
+    "11": {
+      "key": "hpt_run",
+      "display_name": "Pressure test in progress"
+    },
+    "12": {
+      "key": "hpt_wait",
+      "display_name": "Waiting for pressure test"
+    },
+    "13": {
+      "key": "init",
+      "display_name": "Initialization (Power On Self-Test)"
+    },
+    "14": {
+      "key": "pod",
+      "display_name": "Pod handling state"
+    },
+    "15": {
+      "key": "priming",
+      "display_name": "Priming water circuit"
+    },
+    "16": {
+      "key": "ready_to_brew",
+      "display_name": "Ready to brew"
+    },
+    "17": {
+      "key": "rinsing_pause",
+      "display_name": "Rinse in pause"
+    },
+    "18": {
+      "key": "rinsing_run",
+      "display_name": "Rinsing in progress"
+    },
+    "19": {
+      "key": "rinsing_wait",
+      "display_name": "Waiting rinse start"
+    },
+    "20": {
+      "key": "standby",
+      "display_name": "Standby mode"
+    },
+    "21": {
+      "key": "sw_update",
+      "display_name": "Software update in progress"
+    },
+    "22": {
+      "key": "tabholder",
+      "display_name": "Tab holder state"
+    },
+    "23": {
+      "key": "water_empty",
+      "display_name": "Empty water tank event"
+    },
+    "24": {
+      "key": "water_tank",
+      "display_name": "Water tank presence check"
+    },
+    "offline": {
+      "key": "offline",
+      "display_name": "Device offline"
+    }
+  },
+  "states_push": {
+    "0": {
+      "key": "brewing",
+      "display_name": "Brewing"
+    },
+    "3": {
+      "key": "ready_to_brew",
+      "display_name": "Ready to brew"
+    },
+    "4": {
+      "key": "descaling",
+      "display_name": "Descaling"
+    },
+    "5": {
+      "key": "heating",
+      "display_name": "Heating"
+    },
+    "20": {
+      "key": "standby",
+      "display_name": "Standby"
+    }
+  },
+  "makecoffee_status": {
+    "0": {
+      "key": "ok_completed",
+      "display_name": "Brewing completed successfully"
+    },
+    "1": {
+      "key": "ko_water_empty",
+      "display_name": "Water tank empty, please fill it"
+    },
+    "2": {
+      "key": "ko_drawer_open",
+      "display_name": "Drawer is open"
+    },
+    "3": {
+      "key": "ko_machine_problem",
+      "display_name": "Coffee machine problem, call technical service"
+    },
+    "4": {
+      "key": "ok_stopped_user",
+      "display_name": "Coffee brewing stopped by user"
+    },
+    "5": {
+      "key": "ok_stopped_app",
+      "display_name": "Coffee brewing stopped by APP"
+    },
+    "7": {
+      "key": "ok_completed_tank_emptied",
+      "display_name": "Brewing completed, but tank emptied afterward"
+    }
+  },
+  "sensors": {},
+  "beverages": {
+    "MONO": {
+      "1": "Ristretto",
+      "2": "Espresso",
+      "3": "Espresso Lungo"
+    },
+    "BIDOSE": {
+      "1": "Espresso",
+      "2": "Espresso Lungo",
+      "3": "Bi-dose"
+    }
+  },
+  "commands": {}
+}

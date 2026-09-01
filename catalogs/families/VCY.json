@@ -1,0 +1,147 @@
+{
+  "states": {
+    "1": {
+      "key": "standby",
+      "display_name": "Standby"
+    },
+    "2": {
+      "key": "first_heating",
+      "display_name": "First heating of a cold machine"
+    },
+    "3": {
+      "key": "heating",
+      "display_name": "Heating phase"
+    },
+    "4": {
+      "key": "ready_to_brew",
+      "display_name": "Ready to brew"
+    },
+    "5": {
+      "key": "brewing",
+      "display_name": "Brewing"
+    },
+    "6": {
+      "key": "press_discharge",
+      "display_name": "Press discharge procedure"
+    },
+    "10": {
+      "key": "fault",
+      "display_name": "Fault state"
+    },
+    "13": {
+      "key": "factory_reset",
+      "display_name": "Reset all parameters and statistics"
+    },
+    "14": {
+      "key": "rinsing_run",
+      "display_name": "Rinsing in progress"
+    },
+    "15": {
+      "key": "descaling_run",
+      "display_name": "Descaling in progress"
+    },
+    "16": {
+      "key": "descaling_wait",
+      "display_name": "Waiting descale start"
+    },
+    "17": {
+      "key": "descaling_pause",
+      "display_name": "Descaling in pause"
+    },
+    "18": {
+      "key": "rinsing_wait",
+      "display_name": "Waiting rinse start"
+    },
+    "19": {
+      "key": "rinsing_pause",
+      "display_name": "Rinse in pause"
+    },
+    "20": {
+      "key": "heating_descale",
+      "display_name": "Heating before descaling"
+    },
+    "23": {
+      "key": "pressure_test_run",
+      "display_name": "Pressure test (post-assembly)"
+    },
+    "24": {
+      "key": "erogation_pause",
+      "display_name": "Empty water tank during brewing (first-install condition)"
+    },
+    "25": {
+      "key": "dose_programming",
+      "display_name": "Dose programming"
+    },
+    "26": {
+      "key": "empty_water",
+      "display_name": "Empty water tank during brewing"
+    },
+    "28": {
+      "key": "descaling_no_water",
+      "display_name": "Empty water tank during descaling"
+    },
+    "29": {
+      "key": "rinsing_no_water",
+      "display_name": "Empty water tank during rinsing"
+    },
+    "30": {
+      "key": "dose_prog_timeout",
+      "display_name": "Stuck button detected after dose programming"
+    },
+    "offline": {
+      "key": "offline",
+      "display_name": "Device offline"
+    }
+  },
+  "states_push": {
+    "1": {
+      "key": "standby",
+      "display_name": "Standby"
+    },
+    "2": {
+      "key": "first_heating",
+      "display_name": "First heating"
+    },
+    "3": {
+      "key": "heating",
+      "display_name": "Heating"
+    },
+    "4": {
+      "key": "ready_to_brew",
+      "display_name": "Ready to brew"
+    },
+    "5": {
+      "key": "brewing",
+      "display_name": "Brewing"
+    }
+  },
+  "makecoffee_status": {
+    "0": {
+      "key": "ok_brewed",
+      "display_name": "Coffee brewed correctly"
+    },
+    "1": {
+      "key": "ko_water_empty",
+      "display_name": "Water tank empty, please fill it"
+    },
+    "2": {
+      "key": "ko_drawer_open",
+      "display_name": "Drawer is open"
+    },
+    "3": {
+      "key": "ko_machine_problem",
+      "display_name": "Coffee machine problem, call technical service"
+    },
+    "4": {
+      "key": "ok_stopped_user",
+      "display_name": "Coffee brewing stopped by user"
+    },
+    "5": {
+      "key": "ok_stopped_app",
+      "display_name": "Coffee brewing stopped by APP"
+    }
+  },
+  "sensors": {},
+  "beverages": {},
+  "commands": {}
+}

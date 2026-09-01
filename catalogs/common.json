@@ -1,0 +1,202 @@
+{
+  "states_push": {
+    "offline": {
+      "key": "offline",
+      "display_name": "Device offline"
+    }
+  },
+  "makecoffee_status": {},
+  "makecoffee_status_api": {},
+  "sensors": {
+    "podCounter": {
+      "key": "pod_counter_full",
+      "value_type": "bool",
+      "display_name": "Pod counter full"
+    },
+    "podPresence": {
+      "key": "pod_present",
+      "value_type": "bool",
+      "display_name": "Pod is present"
+    },
+    "descalingProcedure": {
+      "key": "descaling_needed",
+      "value_type": "bool",
+      "display_name": "Descaling procedure needed"
+    },
+    "waterTank": {
+      "key": "water_tank_empty",
+      "value_type": "bool",
+      "display_name": "Water tank empty"
+    },
+    "sliderOpen": {
+      "key": "drawer_open",
+      "value_type": "bool",
+      "display_name": "Drawer is open"
+    },
+    "doorOpen": {
+      "key": "side_door_open",
+      "value_type": "bool",
+      "display_name": "Side door open"
+    },
+    "noTB": {
+      "key": "trash_bin_missing",
+      "value_type": "bool",
+      "display_name": "Trash bin not present"
+    },
+    "fullTB": {
+      "key": "trash_bin_full",
+      "value_type": "bool",
+      "display_name": "Trash bin full"
+    },
+    "emptyBeansContainer": {
+      "key": "beans_container_empty",
+      "value_type": "bool",
+      "display_name": "Beans container empty"
+    },
+    "buRemoved": {
+      "key": "brew_unit_removed",
+      "value_type": "bool",
+      "display_name": "Brew unit removed"
+    },
+    "milkVessel": {
+      "key": "milk_vessel_missing",
+      "value_type": "bool",
+      "display_name": "Milk vessel not present"
+    },
+    "temperatureBoost": {
+      "key": "temperature_boost",
+      "value_type": "enum",
+      "display_name": "Temperature boost"
+    },
+    "foamBoost": {
+      "key": "foam_boost",
+      "value_type": "enum",
+      "display_name": "Foam boost"
+    },
+    "aromaLevel": {
+      "key": "aroma_level",
+      "value_type": "int",
+      "display_name": "Aroma selector level"
+    },
+    "grinderPosition": {
+      "key": "grinder_position",
+      "value_type": "enum",
+      "display_name": "Grinder position"
+    },
+    "buNeedsCleaning": {
+      "key": "brew_unit_needs_cleaning",
+      "value_type": "bool",
+      "display_name": "Brew unit needs cleaning"
+    },
+    "airLockCondition": {
+      "key": "air_lock",
+      "value_type": "bool",
+      "display_name": "Air lock condition"
+    },
+    "rinsingRequired": {
+      "key": "rinsing_required",
+      "value_type": "bool",
+      "display_name": "Rinsing required"
+    }
+  },
+  "errors": {
+    "tempError": {
+      "severity": "error",
+      "display_name": "Temperature error"
+    },
+    "heaterTimeoutError": {
+      "severity": "error",
+      "display_name": "Heater timeout error"
+    },
+    "uiError": {
+      "severity": "error",
+      "display_name": "UI response error"
+    },
+    "ntcError": {
+      "severity": "error",
+      "display_name": "NTC sensor error"
+    },
+    "wdtResetError": {
+      "severity": "error",
+      "display_name": "Watchdog reset error"
+    },
+    "flowmeterError": {
+      "severity": "error",
+      "display_name": "Flow meter timeout"
+    },
+    "grinderNotCalibrated": {
+      "severity": "error",
+      "display_name": "Grinder not calibrated"
+    },
+    "pistonNotCalibrated": {
+      "severity": "error",
+      "display_name": "Piston not calibrated"
+    },
+    "doorOpen": {
+      "severity": "error",
+      "display_name": "Side door open"
+    },
+    "sliderOpen": {
+      "severity": "error",
+      "display_name": "Slider open"
+    },
+    "emptyTank": {
+      "severity": "error",
+      "display_name": "Water tank empty"
+    },
+    "initError": {
+      "severity": "error",
+      "display_name": "Init error"
+    },
+    "zcError": {
+      "severity": "error",
+      "display_name": "ZC error"
+    },
+    "switchError": {
+      "severity": "error",
+      "display_name": "Switch error"
+    },
+    "buPistonClosingError": {
+      "severity": "error",
+      "display_name": "BU piston closing error"
+    },
+    "timeoutBrewToEjectError": {
+      "severity": "error",
+      "display_name": "Timeout during BU Brew→Eject movement"
+    },
+    "overTemperatureError": {
+      "severity": "error",
+      "display_name": "Thermoblock temperature above limits"
+    }
+  },
+  "descaling_status": {
+    "0": {
+      "key": "not_active",
+      "display_name": "Not active"
+    },
+    "1": {
+      "key": "in_progress",
+      "display_name": "In progress"
+    },
+    "2": {
+      "key": "paused",
+      "display_name": "Paused"
+    },
+    "3": {
+      "key": "waiting",
+      "display_name": "Waiting to start"
+    },
+    "4": {
+      "key": "heating",
+      "display_name": "Heating before descaling"
+    },
+    "5": {
+      "key": "complete",
+      "display_name": "Complete"
+    },
+    "6": {
+      "key": "error",
+      "display_name": "Error"
+    }
+  }
+}

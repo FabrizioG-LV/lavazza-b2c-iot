@@ -1,0 +1,8 @@
+{
+  "name": "Lavazza B2C IoT",
+  "homeassistant": "2024.6.0",
+  "documentation": "https://github.com/FabrizioG-LV/lavazza-b2c-iot",
+  "issues": "https://github.com/FabrizioG-LV/lavazza-b2c-iot/issues",
+  "render_readme": true,
+  "content_in_root": true
+}

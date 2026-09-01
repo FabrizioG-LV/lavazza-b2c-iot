@@ -1,0 +1,12 @@
+{
+  "domain": "lavazza_b2c_iot",
+  "name": "Lavazza B2C IoT",
+  "codeowners": ["@FabrizioG-LV"],
+  "config_flow": true,
+  "documentation": "https://github.com/FabrizioG-LV/lavazza-b2c-iot",
+  "iot_class": "cloud_push",
+  "requirements": ["firebase-messaging>=0.4.5"],
+  "version": "0.1.0",
+  "homeassistant": "2024.6.0",
+  "platforms": ["sensor", "button"]
+}

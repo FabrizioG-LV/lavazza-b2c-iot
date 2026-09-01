@@ -1,0 +1,179 @@
+{
+  "states": {
+    "0": {
+      "key": "init",
+      "display_name": "Initialization (Power On Self Test)"
+    },
+    "1": {
+      "key": "standby",
+      "display_name": "Standby"
+    },
+    "2": {
+      "key": "heating",
+      "display_name": "Heating phase"
+    },
+    "3": {
+      "key": "ready_to_brew",
+      "display_name": "Ready to brew"
+    },
+    "4": {
+      "key": "brewing",
+      "display_name": "Brewing"
+    },
+    "5": {
+      "key": "steaming",
+      "display_name": "Steaming"
+    },
+    "6": {
+      "key": "descaling",
+      "display_name": "Descaling"
+    },
+    "7": {
+      "key": "rinsing",
+      "display_name": "Rinsing"
+    },
+    "8": {
+      "key": "fault",
+      "display_name": "Fault condition"
+    },
+    "9": {
+      "key": "factory_reset",
+      "display_name": "Resetting all parameters and statistics"
+    },
+    "10": {
+      "key": "dose_programming",
+      "display_name": "Dose programming"
+    },
+    "11": {
+      "key": "cooling",
+      "display_name": "Cooling down"
+    },
+    "12": {
+      "key": "descaling_wait",
+      "display_name": "User entered descaling mode"
+    },
+    "13": {
+      "key": "descaling_run",
+      "display_name": "Descaling phase #1 in progress"
+    },
+    "14": {
+      "key": "descaling_pause",
+      "display_name": "Descaling phase #1 paused"
+    },
+    "15": {
+      "key": "washing_wait",
+      "display_name": "Phase #1 over, phase #2 (washing) ready"
+    },
+    "16": {
+      "key": "washing_run",
+      "display_name": "Phase #2 (washing) in progress"
+    },
+    "17": {
+      "key": "washing_pause",
+      "display_name": "Phase #2 (washing) paused"
+    },
+    "18": {
+      "key": "washing_complete",
+      "display_name": "Phase #2 over, procedure complete"
+    },
+    "offline": {
+      "key": "offline",
+      "display_name": "Device offline"
+    }
+  },
+  "states_push": {
+    "0": {
+      "key": "init",
+      "display_name": "Initialization"
+    },
+    "1": {
+      "key": "standby",
+      "display_name": "Standby"
+    },
+    "2": {
+      "key": "heating",
+      "display_name": "Heating phase"
+    },
+    "3": {
+      "key": "ready_to_brew",
+      "display_name": "Ready to brew"
+    },
+    "4": {
+      "key": "brewing",
+      "display_name": "Brewing"
+    },
+    "5": {
+      "key": "steaming",
+      "display_name": "Steaming"
+    },
+    "6": {
+      "key": "descaling",
+      "display_name": "Descaling"
+    },
+    "7": {
+      "key": "rinsing",
+      "display_name": "Rinsing"
+    },
+    "8": {
+      "key": "fault",
+      "display_name": "Fault"
+    }
+  },
+  "makecoffee_status": {
+    "1": {
+      "key": "ok_completed",
+      "display_name": "Brewing completed successfully"
+    },
+    "2": {
+      "key": "ok_stopped_recipe",
+      "display_name": "Stopped by user (recipe button)"
+    },
+    "3": {
+      "key": "ok_stopped_power",
+      "display_name": "Stopped by user (power button)"
+    },
+    "4": {
+      "key": "ko_water_empty",
+      "display_name": "Water tank emptied"
+    },
+    "5": {
+      "key": "ko_vessel_removed",
+      "display_name": "Vessel removed during prep"
+    },
+    "6": {
+      "key": "ko_not_enough_beans",
+      "display_name": "Not enough beans to complete recipe"
+    },
+    "7": {
+      "key": "ko_door_open",
+      "display_name": "Side door opened during preparation"
+    },
+    "8": {
+      "key": "ko_trash_removed",
+      "display_name": "Trash bin removed during preparation"
+    },
+    "9": {
+      "key": "ko_machine_problem",
+      "display_name": "Machine problem, contact technical support"
+    },
+    "10": {
+      "key": "ok_dose_programmed",
+      "display_name": "User reprogrammed coffee dose"
+    }
+  },
+  "sensors": {},
+  "beverages": {
+    "1": "Espresso",
+    "2": "Lungo",
+    "3": "Lungo XL (Caffè Crema)",
+    "4": "Free Dose",
+    "5": "Cappuccino",
+    "6": "Cappuccino XL",
+    "7": "Latte Macchiato",
+    "8": "Hot Milk",
+    "9": "Cold Milk",
+    "10": "Double Espresso",
+    "11": "Custom Recipe"
+  },
+  "commands": {}
+}
